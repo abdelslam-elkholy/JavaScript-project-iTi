@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E commerce Contact page</title>
+  </head>
+  <body class="contact-spec">
+    <div class="nav-bar">
+      <h1 class="heading"><span class="red-footer">E</span> Commerce</h1>
+      <div class="nav-items">
+        <a href="index.html" class="nav-bar__link">Home</a>
+        <a href="about.html" class="nav-bar__link">About</a>
+        <a href="contact.html" class="nav-bar__link">Contact Us</a>
+      </div>
+      <div class="cart-div">
+        <span class="cart-num">0</span>
+        <svg class="nav-bar__cart">
+          <use xlink:href="img/sprite.svg#icon-cart"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="contact-container">
+      <form action="" class="form-details" onsubmit="validation()">
+        <caption class="name-caption caption">
+          Full Name
+        </caption>
+        <input type="text" class="name-input input" />
+        <caption class="email-caption caption">
+          Email
+        </caption>
+        <input type="text" class="email-input input" />
+        <caption class="phone-caption caption">
+          Phone
+        </caption>
+        <input type="text" class="phone-input input" />
+        <button type="submit" class="btn-submit">Contact us</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="footer-title"><span class="red-footer">E</span> Commerce</div>
+      <p class="copy-rights">
+        &copy; Copyrights 2022 by Abdelslam Elkholy. All rights reserved
+      </p>
+      <div class="social-media-svgs">
+        <svg class="facebook-icon footer-icon">
+          <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+        </svg>
+        <svg class="whatsapp-icon footer-icon">
+          <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+        </svg>
+        <svg class="twitter-icon footer-icon">
+          <use xlink:href="img/sprite.svg#icon-twitter"></use>
+        </svg>
+      </div>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>
